@@ -38,7 +38,7 @@ CREATE TABLE IF NOT EXISTS `tbl_socio` (
   `data_di_nascita` date NOT NULL,
   `dataIscrizione` date NOT NULL,
   `dataScadenza` date NOT NULL,
-  `cell` int(10) NOT NULL,
+  `cell` int(11) NOT NULL,
   `ruolo` varchar(255) NOT NULL,
   PRIMARY KEY (`codF`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=latin1 ;
