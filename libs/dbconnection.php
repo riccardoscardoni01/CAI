@@ -3,7 +3,7 @@
 $dbHost = "localhost";
 $dbUsername = "root";
 $dbPassword = "";
-$dbDatabase = "simple-shopping";
+$dbDatabase = "cai";
 $dbCharset = 'utf8mb4';
 $dbDsn = "mysql:host=$dbHost; dbname=$dbDatabase; charset=$dbCharset";
 $dbOpt = [PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
