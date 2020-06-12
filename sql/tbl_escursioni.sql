@@ -7,6 +7,10 @@
 -- Server version: 5.6.36-cll-lve
 -- PHP Version: 5.6.30
 
+CREATE DATABASE IF NOT EXISTS cai;
+
+USE cai;
+
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
 
@@ -21,10 +25,6 @@ SET time_zone = "+00:00";
 --
 
 -- --------------------------------------------------------
-
-CREATE DATABASE IF NOT EXISTS cai;
-
-USE cai;
 
 --
 -- Table structure for table `tbl_socio"
