@@ -22,6 +22,10 @@ SET time_zone = "+00:00";
 
 -- --------------------------------------------------------
 
+CREATE DATABASE IF NOT EXISTS cai;
+
+USE cai;
+
 --
 -- Table structure for table `tbl_socio"
 --
